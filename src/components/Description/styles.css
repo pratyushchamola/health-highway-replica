@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.descContainer{
+    font-family: 'Open Sans', sans-serif;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    background: #000000;
+    color: #ffffff;
+}
+
+
+.textPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.textHeading{
+    font-size: 2rem;
+}
+
+.actualTextss{
+    font-size: small;
+}
+
+.buttonPart{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.buttonPart > button {
+    border-radius: 48.6997px !important;
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+}
+
+.button1{
+    color: #000000;
+    background: #27E7CD;
+}
+
+@media screen and (max-width: 1000px) {
+    .descContainer{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .buttonPart{
+        width: 50%;
+        margin: auto;
+    }
+
+    .descContainer > div {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    .buttonPart{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .descContainer{
+        height: fit-content;
+    }
+}

@@ -1,0 +1,40 @@
+.actualFooter{
+    /* border: 2px solid red; */
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    /* height: 8rem; */
+}
+
+.actualFooter > div {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 35%;
+    height: 1.5rem !important;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .actualFooter > div {
+        width: 60%;
+        height: 2rem !important;
+        /* margin: 0; */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .actualFooter > div {
+        width: 100%;
+    }
+}

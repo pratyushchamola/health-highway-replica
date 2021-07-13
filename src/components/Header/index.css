@@ -1,0 +1,84 @@
+.headerpart{
+    margin: 1rem 0;
+}
+
+.flexcomponent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: auto;
+    padding: 0rem 1rem;
+}
+
+.logoname{
+    display: flex;
+    align-items: center;
+    width: 11.4rem;
+}
+
+ .para {
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+    transform: scale(1.1);
+}
+
+
+.health{
+    color: #4CA9EE;
+}
+
+.highway{
+    color: #29E7CD;
+}
+
+
+.loginButton{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.loginButton > button {
+    border: none;
+    float: right;
+    border-radius: 26.0417px;
+    width: 25%;
+    background-color: #4CA9EE;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 770px) {
+    .loginButton > button{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .logoname{
+        display: flex;
+        align-items: center;
+        width: 11.3rem;
+    }
+
+    .loginButton{
+        width: 40%;
+    }
+    .loginButton > button {
+        width: 80%;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .flexcomponent{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .loginButton{
+        width: 30%;
+    }
+}
